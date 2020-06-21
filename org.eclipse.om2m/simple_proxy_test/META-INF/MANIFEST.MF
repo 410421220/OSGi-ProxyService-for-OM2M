@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simple_proxy_test
+Bundle-SymbolicName: simple_proxy_test
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: simple_proxy_test.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: simple_proxy_test
+Import-Package: org.eclipse.om2m.commons.resource,
+ org.eclipse.om2m.commons.constants,
+ org.eclipse.om2m.core.service,
+ org.osgi.framework,
+ org.osgi.framework.hooks.service;version="1.1.0",
+ org.osgi.util.tracker
+Bundle-ActivationPolicy: lazy
