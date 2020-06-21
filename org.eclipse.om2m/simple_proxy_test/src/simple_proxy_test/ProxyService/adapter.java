@@ -10,12 +10,12 @@ public class adapter implements CseService {
 	@Override
 	public ResponsePrimitive doRequest(RequestPrimitive request) {
 		// TODO Auto-generated method stub
-		System.out.println("=======> Proxy module (QoS module) <======S");
+		System.out.println("===> Proxy module  NCKU DCNLab <==S");
 		ResponsePrimitive response = null;
 		// do something
-		System.out.println("=======>    send to cseService !   <=======");
+		System.out.println("===>    send to cseService !   <===");
 		response = cse.doRequest(request);
-		System.out.println("=======> Proxy module (QoS module) <======E");
+		System.out.println("===> Proxy module  NCKU DCNLab <==E");
 		return response;
 	}
 
